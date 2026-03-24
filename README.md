@@ -369,7 +369,7 @@ This POC is explicitly exploratory. The path to upstream integration:
 
 | Deliverable | Status | Week |
 |-------------|--------|------|
-| D1 — LOS Survey & Design Doc | 🔄 In Progress | 1–2 |
+| D1 — LOS Survey & Design Doc |⏳ Planned | 1–2 |
 | D2 — External Service + Core Entities | ⏳ Planned | 3–4 |
 | D3 — REST API Phase 1 | ⏳ Planned | 5–7 |
 | D4 — Approval Workflow | ⏳ Planned | 8–9 |
@@ -383,7 +383,7 @@ This POC is explicitly exploratory. The path to upstream integration:
 
 - [FINERACT-2442](https://issues.apache.org/jira/browse/FINERACT-2442) — Loan Origination POC (this project)
 - [FINERACT-2418](https://issues.apache.org/jira/browse/FINERACT-2418) — New LOS APIs (disbursement bridge target)
-- [FINERACT-2515](https://issues.apache.org/jira/browse/FINERACT-2515) — PR: Remove stale TODO stubs (merged)
+- [FINERACT-2515](https://issues.apache.org/jira/browse/FINERACT-2515) — PR: Remove stale TODO stubs
 - [FINERACT-2543](https://issues.apache.org/jira/browse/FINERACT-2543) — PR: Fix SBOM generation errors
 
 ---
