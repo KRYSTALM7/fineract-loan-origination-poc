@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: los-postgres
+    environment:
+      POSTGRES_DB: fineract_los
+      POSTGRES_USER: los_user
+      POSTGRES_PASSWORD: los_pass
+    ports:
+      - "5433:5432"
+    volumes:
+      - los_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U los_user -d fineract_los"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  los-service:
+    build: .
+    container_name: fineract-los-service
+    ports:
+      - "8085:8085"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/fineract_los
+      SPRING_DATASOURCE_USERNAME: los_user
+      SPRING_DATASOURCE_PASSWORD: los_pass
+      FINERACT_BASE_URL: http://fineract:8080/fineract-provider/api/v1
+      FINERACT_MOCK_ENABLED: "true"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  los_pgdata:

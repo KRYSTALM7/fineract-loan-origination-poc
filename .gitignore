@@ -1,0 +1,10 @@
+.gradle/
+build/
+*.class
+*.jar
+.idea/
+*.iml
+.DS_Store
+target/
+*.log
+application-local.properties
