@@ -33,7 +33,7 @@ This is the exploratory reference implementation for [FINERACT-2442](https://iss
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│              External LOS Service (This Repo)                │
+│              External LOS Service (This Repo)               │
 │                                                             │
 │  REST API Layer  →  Workflow Engine  →  Credit Engine       │
 │        ↓                  ↓                  ↓              │
@@ -43,9 +43,9 @@ This is the exploratory reference implementation for [FINERACT-2442](https://iss
 └─────────────────────────────────────────────────────────────┘
                                                     │
                               ┌─────────────────────▼──────┐
-                              │    Apache Fineract Core     │
-                              │    POST /loans              │
-                              │    GET /clients/{id}        │
+                              │    Apache Fineract Core    │
+                              │    POST /loans             │
+                              │    GET /clients/{id}       │
                               └────────────────────────────┘
 ```
 
