@@ -397,5 +397,3 @@ Apache License 2.0 — see [LICENSE](LICENSE)
 ## Author
 
 **Sujan Kumar MV** | [GitHub](https://github.com/KRYSTALM7) | [Portfolio](https://sujan-space.vercel.app) | [LinkedIn](https://linkedin.com/in/sujankumar2003)
-
-*GSoC 2026 Contributor — Apache Software Foundation (Fineract)*
