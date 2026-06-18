@@ -1,18 +1,8 @@
 # Fineract-Loan-Origination-POC
 
-> Author: Sujan Kumar MV | Google Summer of Code 2026 Proposal Work
->
-> Related Initiative: FINERACT-2442
-
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
-[![Java](https://img.shields.io/badge/Java-21-orange)](https://openjdk.org/projects/jdk/21/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-green)](https://spring.io/projects/spring-boot)
-
----
-
 ## Overview
 
-Apache Fineract is a mature open-source core banking platform, but it does not currently provide a native Loan Origination System (LOS). Institutions typically implement origination workflows externally or integrate commercial LOS solutions.
+Apache Fineract is a open-source core banking platform, but it does not currently provide a native Loan Origination System (LOS). Institutions typically implement origination workflows externally or integrate commercial LOS solutions.
 
 This repository contains an early proof of concept created during the proposal phase of Google Summer of Code (GSoC) 2026. The objective was to explore how a standardized Loan Origination System could be designed around Apache Fineract while preserving the platform's existing architecture.
 
@@ -303,9 +293,9 @@ Following acceptance into GSoC 2026, implementation work continued under FINERAC
 
 ## License
 
-Apache License 2.0
+This project is licensed under the Apache License 2.0.
 
-See [LICENSE](https://img.shields.io/badge/license-Apache%202.0-blue) for details.
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
