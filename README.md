@@ -314,7 +314,3 @@ See LICENSE for details.
 ## Author
 
 **Sujan Kumar MV**
-
-Google Summer of Code 2026 Contributor
-
-Apache Software Foundation – Apache Fineract
