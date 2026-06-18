@@ -1,7 +1,5 @@
-# fineract-loan-origination-poc
+# Fineract-Loan-Origination-POC
 
-> **Proposal-Phase Proof of Concept** | Apache Fineract | Loan Origination System (LOS)
->
 > Author: Sujan Kumar MV | Google Summer of Code 2026 Proposal Work
 >
 > Related Initiative: FINERACT-2442
@@ -307,7 +305,7 @@ Following acceptance into GSoC 2026, implementation work continued under FINERAC
 
 Apache License 2.0
 
-See LICENSE for details.
+See [LICENSE](https://img.shields.io/badge/license-Apache%202.0-blue) for details.
 
 ---
 
